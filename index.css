@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    box-sizing: border-box;
+    background-color: #6943FF;
+    padding: 35px 50px;
+    border-radius: 5px;
+    margin: 3px 3px 0 3px;
+}
+
+h1 {
+    font-weight: 900;
+    color: #FFF;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#conversion-value {
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 58px;
+    font-weight: extra-bold;
+    text-align: center;
+    width:  200px;
+    margin-bottom: 30px;
+}
+
+/* Weghalen van pijltjes in number input */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  appearance: textfield;
+}
+/* Einde code pijltjes weghalen */
+
+#convert-btn {
+    background-color: #FFF;
+    color: #3D3D3D;
+    font-size: 15px;
+    padding: 10px 0;
+    width: 204px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+}
+
+#convert-btn:hover {
+    cursor: pointer;
+    background-color: #E0E0E0;
+    transition: 0.3s ease;
+    color: #6943FF;
+}
+
+#output-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: #F4F4F4;
+    width: 550px;
+    box-sizing: border-box;
+    padding: 35px 50px;
+    border-radius: 5px;
+    margin: 3px 3px 0 3px;
+}
+
+.conversion-result {
+    width: 500px;
+    height: 110px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #5A537B;
+}
+
+.result {
+    font-size: 14px;
+    color: #353535;
+}
